@@ -1,253 +1,190 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
+    <!-- Coping code is not allowed. All rights reserved by Famral -->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Famral – Domain Names, Website Hosting, Security & Productivity Tools</title>
-  <link rel="icon" type="image/x-icon" href="./favicon.png" />
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famral Studio: Home to Creativity & Productivity</title>
+    <meta name="description" content="Famral Studio: Home to Creativity & Productivity"/>
+    <link rel="icon" type="image/x-icon" href="https://www.famral.com/favicon.png" />
 
 
-  <!-- Google tag (gtag.js) -->
-  <script asyncsrc="https://www.googletagmanager.com/gtag/js?id=G-77313KVE2V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    functiongtag(){ dataLayer.push(arguments); }
-    gtag('js', newDate());
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
 
-    gtag('config', 'G-77313KVE2V');
-  </script>
+        header {
+            background-color: #ffffff;
+        }
 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 25px;
+            background-color: #f1f1f1;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 0px;
+            box-shadow: 0 0 10px rgba(83, 83, 83, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .product:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0px;
+            margin-bottom: 10px;
+        }
+
+        .product h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: #707070;
+            margin-bottom: 20px;
+        }
+
+        .prod-button {
+            background-color: #ffffff;
+            color: #003bbb;
+            padding: 8px 10px 8px 2px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 0px;
+            transition: background-color 0.2s;
+        }
+
+        .prod-button:hover {
+            background-color: #ebebff;
+            border-bottom: 2px solid rgb(4, 0, 255);
+        }
+
+        .prod-button:focus {
+            background-color: #feffb9;
+            color: #003bbb;
+            padding: 8px 10px 8px 2px;
+            text-decoration: none;
+            border-bottom: 2px solid rgb(4, 0, 255);
+        }
+
+        footer {
+            background-color: #f0f0f0;
+            color: #7e7e7e;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
-  <!-- partial:index.partial.html -->
-  <div class="menu-btn">
-    <i class="fas fa-bars fa-1.5x"></i>
-  </div>
 
-  <div class="container">
-    <!-- Nav -->
-    <nav class="main-nav">
-      <img src="./logo.png" alt="Famral" class="logo">
-
-      <ul class="main-menu">
-        <li><a href="https://www.famral.com">Home</a></li>
-        <li><a href="https://tools.famral.com/" target="_blank">Tools</a></li>
-        <li><a href="https://tools.sciencebaba.com/" target="_blank">Developer Tools</a></li>
-        <li><a href="https://create.famral.com/" target="_blank">Create</a></li>
-      </ul>
-
-      <ul class="right-menu">
-        <li>
-          <a href="https://www.famral.com/search">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none"
-              stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--! Famral Icons -
-              https://icons.famral.com/ (Icons: CC BY 4.0) Copyright Famral Icons --&gt;<circle cx="11" cy="11" r="9"
-                fill="none"></circle>
-              <line x1="17.5" y1="17.5" x2="22" y2="22"></line>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Showcase -->
-    <header class="showcase">
-      <h2>Get Your Domain Name</h2>
-      <p>
-        "Create your Online Identity in Minutes"
-      </p>
-      <a href="https://shop.famral.com/" target="_blank" class="btn">
-        Get Domain Name and More <i class="fas fa-chevron-right"></i>
-      </a>
+    <header>
+        <div class="container">
+            <img src="https://www.famral.com/logo.png" alt="Famral" style="height: 24px;">
+        </div>
     </header>
 
-    <!-- Home cards 1 -->
-    <section class="home-cards">
-      <div>
-        <img src="https://raw.githubusercontent.com/Famral/Home/548de81e5b2cddf9d5423caa0ae26d2db33d35e6/Web-Hosting.png" alt="Web Hosting" />
-        <h3>Website Hosting</h3>
-        <p>
-          Get your Business Online in an Affordable way.
-        </p>
-        <a href="https://shop.famral.com/hosting/shared" target="_blank"> Get Web Hosting <i
-            class="fas fa-chevron-right"></i></a>
-      </div>
-      <div>
-        <img src="https://raw.githubusercontent.com/Famral/Home/548de81e5b2cddf9d5423caa0ae26d2db33d35e6/Website-Builder.png" alt="Free Website Maker">
-        <h3>Website Builder</h3>
-        <p>
-          Create your own website instantly, no coding/design skills required.
-        </p>
-        <a href="https://shop.famral.com/website-builder" target="_blank"> Get Website Builder <i class="fas fa-chevron-right"></i></a>
-      </div>
-      <div>
-        <img src="https://raw.githubusercontent.com/Famral/Home/79fbe7ef5e2d77cf62432adcc4dd1f765033b565/SSL-Certificate.png" alt="SSL Certificate" />
-        <h3>SSL Certificate</h3>
-        <p>
-          Protect your customer's personal data including credit cards and identity information.
-        </p>
-        <a href="https://shop.famral.com/security/ssl-certificate" target="_blank"> Get SSL Certificate <i class="fas fa-chevron-right"></i></a>
-      </div>
-      <div>
-        <img src="https://raw.githubusercontent.com/Famral/Home/548de81e5b2cddf9d5423caa0ae26d2db33d35e6/Website-Security.png" alt="Website Security" />
-        <h3>Website Security</h3>
-        <p>
-          Monitors your website 24x7 for vulnerabilities and attacks.
-        </p>
-        <a href="https://shop.famral.com/security/sitelock" target="_blank"> Get Website Security <i class="fas fa-chevron-right"></i></a>
-      </div>
-    </section>
+    <main>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="graphic-design.png" alt="Graphic Design">
+                <h2>Graphic Design</h2>
+                <p>Create all-new graphic designs and download in different formats.</p>
+                <a href="https://create.famral.com/graphic-design" class="prod-button">Start Designing &#129122;</a>
+            </div>
 
-    <!-- Famral Games -->
-    <section class="xbox">
-      <div class="content">
-        <h2>Famral eBooks</h2>
-        <p>Get latest and exclusive ebooks.
-        </p>
-        <a href="https://www.famral.com/ebooks/" target="_blank" class="btn">
-          Get eBooks <i class="fas fa-chevron-right"></i>
-        </a>
-      </div>
-    </section>
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="drawing.png" alt="Drawing">
+                <h2>Create Drawing</h2>
+                <p>Create your way with Drawing, a free online drawing tool.</p>
+                <a href="https://create.famral.com/drawing" class="prod-button">Start Drawing &#129122;</a>
+            </div>
 
-    <!-- Home cards 2 -->
-    <section class="home-cards">
-      <div>
-        <img src="https://i.ibb.co/ZVNnDkb/Famral-Create.png" alt="Graphic Design" />
-        <h3>Famral Create</h3>
-        <p>
-          Provides a wide range of tools to help users create stunning visuals.
-        </p>
-        <a href="https://create.famral.com/"> Start Creating <i class="fas fa-chevron-right"></i></a>
-      </div>
-      <div>
-        <img src="https://i.ibb.co/7CxtG7L/Famral-Icons.png" alt="Free Icons" />
-        <h3>Famral Icons</h3>
-        <p>
-          Beautiful customizable icons which you can personalise for your project.
-        </p>
-        <a href="https://icons.famral.com/" target="_blank"> Get Free Icons <i class="fas fa-chevron-right"></i></a>
-      </div>
-      <div>
-        <img src="https://i.ibb.co/7VNd7qk/Developer-Tools.png" alt="Developer Tools" />
-        <h3>Developer Tools</h3>
-        <p>
-          The Best Free Online Developer Tools you will ever need.
-        </p>
-        <a href="https://tools.sciencebaba.com/"> Developer Tools <i class="fas fa-chevron-right"></i></a>
-      </div>
-      <div>
-        <img src="https://i.ibb.co/sHQnt8B/QRCode-4.png" alt="QR Code Generator" />
-        <h3>Create QR Code</h3>
-        <p>
-          A user-friendly and customizable QR code generator with ease.
-        </p>
-        <a href="https://qrcode.famral.com/">Learn More <i
-            class="fas fa-chevron-right"></i></a>
-      </div>
-    </section>
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="qr-code.png" alt="Create QR Code">
+                <h2>Stylish QR Code</h2>
+                <p>A user-friendly and customizable QR code generator.</p>
+                <a href="https://qrcode.famral.com/" class="prod-button">Create QR Code &#129122;</a>
+            </div>
 
-    <!-- Carbon -->
-    <section class="carbon dark">
-      <div class="content">
-        <h2>Learn Something New Everyday</h2>
-        <p>Learning something new can be a great way to grow and gain power.</p>
-        <a href="https://blog.famral.com" target="_blank" class="btn">
-          Famral Blog <i class="fas fa-chevron-right"></i>
-        </a>
-      </div>
-    </section>
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="photo-editing.png" alt="Photo Editing">
+                <h2>Photo Editing</h2>
+                <p>Try easy-to-use photo editing tools.</p>
+                <a href="https://create.famral.com/photo-editing" class="prod-button">Start Photo Editing &#129122;</a>
+            </div>
+            
+                        <!-- Product -->
+            <div class="product">
+                <img src="graphic-design.png" alt="Photo Background Remover">
+                <h2>Background Remover</h2>
+                <p>Upload an image and remove the background.</p>
+                <a href="https://create.famral.com/remove-image-background" class="prod-button">Remove Background &#129122;</a>
+            </div>
+            
+            <!-- Product 5 -->
+            <div class="product">
+                <img src="whiteboard.png" alt="digital whiteboard">
+                <h2>Digital Whiteboard</h2>
+                <p>Try our new online free digital whiteboard.</p>
+                <a href="https://create.famral.com/whiteboard" target="_blank" class="prod-button">Start Whiteboard &#129125;</a>
+            </div>
+            
+            <!-- Product 6 -->
+            <div class="product">
+                <img src="developer-tools.png" alt="online tools">
+                <h2>Developer Tools</h2>
+                <p>Collection of free online tools for developers.</p>
+                <a href="https://tools.sciencebaba.com/?utm_source=fcreate" target="_blank" class="prod-button">Get Developer Tools &#129125;</a>
+            </div>
+
+
+
+        </div>
+
+    </main>
 
 
     <br>
+    <br>
 
-
-  </div>
-  </div>
-  <!-- Links -->
-  <section class="links">
-    <div class="links-inner">
-      <ul>
-        <li>
-          <h3>Domains</h3>
-        </li>
-        <li><a href="https://shop.famral.com/" target="_blank">Register Domain Name</a></li>
-        <li><a href="https://shop.famral.com/domains/transfer" target="_blank">Transfer Domain Name</a></li>
-        <li><a href="https://shop.famral.com/domains/domain-name-generator" target="_blank">Domain Name Generator</a></li>
-        <li><a href="https://shop.famral.com/domains/price" target="_blank">Domain Name Pricing</a></li>
-        <li><a href="https://shop.famral.com/whois" target="_blank">Whois Lookup</a></li>
-        <li><a href="https://shop.famral.com/domain-offers" target="_blank">Domain Name Offers</a></li>
-
-      </ul>
-      <ul>
-        <li>
-          <h3>Hosting & Products</h3>
-        </li>
-        <li><a href="https://shop.famral.com/hosting/shared" target="_blank">Shared Web Hosting</a></li>
-        <li><a href="https://www.famral.com/website-builder" target="_blank">Website Builder</a></li>
-        <li><a href="https://shop.famral.com/email/business" target="_blank">Business Email</a></li>
-        <li><a href="https://shop.famral.com/security/ssl-certificate" target="_blank">SSL Certificates</a></li>
-        <li><a href="https://shop.famral.com/security/sitelock" target="_blank">Website Security</a></li>
-        <li><a href="https://shop.famral.com/combo-offers" target="_blank">Get Combo Offers</a></li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Free Tools</h3>
-        </li>
-        <li><a href="https://tools.famral.com/" target="_blank">Website Tools</a></li>
-        <li><a href="https://tools.sciencebaba.com/" target="_blank">Developer Tools</a></li>
-        <li><a href="https://create.famral.com/" target="_blank">Graphic Design</a></li>
-        <li><a href="https://icons.famral.com/" target="_blank">Free Icons</a></li>
-        <li><a href="https://qrcode.famral.com/" target="_blank">QR-Code Generator</a></li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Sister Sites</h3>
-        </li>
-        <li><a href="https://www.sciencebaba.com/" target="_blank">Science Baba</a></li>
-        <li><a href="https://www.useoftools.com/" target="_blank">Use of Tools</a></li>
-        <li><a href="https://wallpapers.sciencebaba.com/" target="_blank">Free Wallpapers</a></li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Support & Legal</h3>
-        </li>
-        <li><a href="https://manage.famral.com/kb" target="_blank">Knowledge Base</a></li>
-        <li><a href="https://shop.famral.com/support/contact-us" target="_blank">Contact Support</a></li>
-        <li><a href="https://shop.famral.com/support/report-spam" target="_blank">Report Spam</a></li>
-        <li><a href="https://shop.famral.com/support/privacy" target="_blank">Privacy Policy</a></li>
-        <li><a href="https://shop.famral.com/support/legal" target="_blank">Legal Agreements</a></li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Account</h3>
-        </li>
-        <li><a href="https://manage.famral.com/customer" target="_blank">Login</a></li>
-        <li><a href="https://manage.famral.com/servlet/ListAllOrdersServlet" target="_blank">My Orders</a></li>
-        <li><a href="https://manage.famral.com/ForgotPassword.jsp?role=customer" target="_blank">Password Reset</a></li>
-      </ul>
-      
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <div><i class="fas fa-globe fa-1.5x"></i> English</div>
-      <ul>
-        <li><a href="https://www.famral.com/contact">Contact</a></li>
-        <li><a href="https://www.famral.com">Copyright © 2024 Famral. All rights reserved.</a></li>
-      </ul>
-    </div>
-  </footer>
-  <!-- partial -->
-  <script src="./script.js"></script>
-
+    <footer>
+        <p>&copy; 2024 Famral. All rights reserved.</p>
+    </footer>
 
 </body>
 
